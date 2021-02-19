@@ -1,0 +1,18 @@
+Instructions to Run HW Assignment Project:
+
+1) This project is a Maven Project.
+2) Import this project into Eclipse workspace
+3) Use run as Spring Boot Application
+4) Use browser to send a request to this URL: localhost:8080/rewardsCalculator to execute the business logic
+
+Result:
+
+1) Ninety days old purchase transactions starting from April 23, 2020 will be pulled from the H2 Memory Database. 
+2) The selected purchase transactions with calculated reward points will be sent to the browser as a response.
+3) Reward points earned for each customer per month and three month total will be logged in the Eclipse console.
+
+Project Description:
+
+	H2 Memory Database is used to store test data. Under src/main/resources folder you will find schema.sql and data.sql files.
+	These SQL scripts are going to be executed automatically when the request is sent to the above mentioned URL.
+
